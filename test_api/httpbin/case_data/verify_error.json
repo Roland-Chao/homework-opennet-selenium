@@ -1,0 +1,41 @@
+[
+  {
+    "test_id": "one_key_diff",
+    "payload": {
+      "name": "Kobe Bryant",
+      "email": "kobe@example.com",
+      "age": 20
+    },
+    "expected_data": {
+      "name": "Kobe",
+      "email": "kobe@example.com",
+      "age": 20
+    }
+  },
+  {
+    "test_id": "two_key_diff",
+    "payload": {
+      "name": "Stephen Curry",
+      "email": "stephen@example.com",
+      "age": 30
+    },
+    "expected_data": {
+      "name": "Curry",
+      "email": "stephen@google.com",
+      "age": 30
+    }
+  },
+  {
+    "test_id": "three_key_diff",
+    "payload": {
+      "name": "Luka Doncic",
+      "email": "luka@example.com",
+      "age": 40
+    },
+    "expected_data": {
+      "name": "Jordan",
+      "email": "wwww@example.com",
+      "age": 60
+    }
+  }
+]
