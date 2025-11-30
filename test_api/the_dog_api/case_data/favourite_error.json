@@ -1,0 +1,21 @@
+[
+  {
+    "test_id": "missing_api_key",
+    "payload": {"image_id": "BJa4kxc4X"},
+    "use_api_key": false,
+    "expected_status_code": 401,
+    "expected_error": "AUTHENTICATION_ERROR"
+  },
+  {
+    "test_id": "missing_image_id",
+    "payload": {},
+    "expected_status_code": 400,
+    "expected_error": "\"image_id\" is required"
+  },
+  {
+    "test_id": "empty_payload",
+    "payload": {},
+    "expected_status_code": 400,
+    "expected_error": "\"image_id\" is required"
+  }
+]
