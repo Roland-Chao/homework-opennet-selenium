@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+.venv/
+
+# Environment variables
+.env
+
+# Testing
+allure-results/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# PDFs and test documents (uncomment if needed)
+# *.pdf
+# *.txt
